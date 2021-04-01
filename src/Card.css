@@ -1,7 +1,7 @@
 .card-container {
-    margin: 10px;
+    margin: 20px;
     height: 150px;
-    min-width: 100px;
+    min-width: 200px;
     width: 10%;
     background-color: grey;
     border: 6px solid grey;

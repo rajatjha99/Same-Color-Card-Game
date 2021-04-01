@@ -37,7 +37,9 @@ export default class SameColorGame extends Component {
       {id: 12, cardState: CardState.HIDING, backgroundColor: 'pink'},
       {id: 13, cardState: CardState.HIDING, backgroundColor: 'pink'},
       {id: 14, cardState: CardState.HIDING, backgroundColor: 'lightskyblue'},
-      {id: 15, cardState: CardState.HIDING, backgroundColor: 'lightskyblue'}
+      {id: 15, cardState: CardState.HIDING, backgroundColor: 'lightskyblue'},
+      {id: 16, cardState: CardState.HIDING, backgroundColor: 'deeppink'},
+      {id: 17, cardState: CardState.HIDING, backgroundColor: 'deeppink'}
     ];
     cards = shuffle(cards);
     this.state = {cards, noClick: false};
